@@ -1,0 +1,110 @@
+.completed {
+    text-decoration: line-through;
+	color: gray;
+}
+
+.item{
+	display: flex;
+	gap: 10px;
+	height: max-content;
+	word-break: break-all;
+	align-items: center;
+}
+
+.text{
+	width: 250px;
+	margin-right: 10px;
+}
+
+.active{
+	display: flex;
+	gap: 10px;
+}
+
+.task input{
+	min-width: 20px;
+	min-height: 30px;
+}
+
+button{
+	cursor: pointer;
+}
+
+.task__btn button{
+	border: none;
+	background-color: inherit;
+	font-size: 20px;
+}
+
+.task__btn button:hover{
+	color: blue;
+}
+
+.task{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	height: 60px;
+	align-items: center;
+	padding: 10px;
+}
+
+.edited__input{
+	height: 40px;
+	width: 100%;
+	margin: 0;
+}
+
+.edited__input::placeholder{
+	font-size: 20px;
+}
+
+.task__btn{
+	text-decoration: none;
+	display: flex;
+}
+
+.edited{
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.edited button{
+	border: none;
+	background-color: inherit;
+	font-size: 30px;
+	margin-left: -7px;
+}
+
+.edited button:hover{
+	color: blue;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.task__time{
+	font-size: 14px;
+
+}
+
+.Timer{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.Timer button{
+	border: none;
+	background-color: inherit;
+	font-size: 20px;
+}
+
+.Timer button:hover{
+	color: blue;
+}

@@ -1,0 +1,18 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: none;
+    align-items: center;
+    padding: 10px;
+}
+
+.Footer button{
+    border: none;
+    background-color: inherit;
+}
+
+.Footer button:hover{
+    color: blue;
+}
